@@ -27,6 +27,7 @@ To install and set up the application, follow these steps:
 5. Seed the database with test data.
 
 ## Usage 
+[![Video]](https://drive.google.com/file/d/186vTDiUD0KnoRX8F61S6PfLHCIi7oiZc/view)
 1. Start the server by running the following command:
         npm start
 2. The sequelize models will be synced with MySQL database.

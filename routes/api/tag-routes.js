@@ -30,7 +30,7 @@ router.get('/:id', async (req, res) => {
       return res.status(404).json({ error: 'Tag not found' });
     }
     
-    res status(200).json(tag);
+    res.status(200).json(tag);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Failed to retrieve the tag' });
